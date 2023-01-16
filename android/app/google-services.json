@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1044117978138",
+    "firebase_url": "https://confidant-health-provider.firebaseio.com",
+    "project_id": "confidant-health-provider",
+    "storage_bucket": "confidant-health-provider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044117978138:android:c05fb9f37febccdc07e5a3",
+        "android_client_info": {
+          "package_name": "live.safeopioidusecoalition.confidant.provider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044117978138-3gauh2dgksrr4olfcpgs7le2620hm8ed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjkkXKMWjXWT3IwUtilhqWY8-ELpek5dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044117978138-3gauh2dgksrr4olfcpgs7le2620hm8ed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

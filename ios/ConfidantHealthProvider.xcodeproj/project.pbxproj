@@ -1,0 +1,1224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2EB03AC31B1A29BAAE695CA7 /* libPods-ConfidantHealthProvider-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC359210FEE7636A8A6917A /* libPods-ConfidantHealthProvider-tvOS.a */; };
+		5557E886238BD7A90051D3CD /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5557E885238BD7A90051D3CD /* NotificationService.m */; };
+		5557E88A238BD7A90051D3CD /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5557E882238BD7A90051D3CD /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5561A4712357269700C2BED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5561A4702357269700C2BED6 /* LaunchScreen.storyboard */; };
+		5561A4752357396500C2BED6 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561A4742357396500C2BED6 /* LaunchViewController.swift */; };
+		5561A4772357501700C2BED6 /* circle_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5561A4762357501700C2BED6 /* circle_animation.json */; };
+		558C8E25234B83F100EB37C6 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C8E24234B83F100EB37C6 /* test.swift */; };
+		96E7BD0EA44CFD3010010B30 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E826086D201D3AFFD3DFED /* libPods-OneSignalNotificationServiceExtension.a */; };
+		B3BE61C12693027800E606D7 /* SourceSerifPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE619E2693027600E606D7 /* SourceSerifPro-Bold.ttf */; };
+		B3BE61C22693027800E606D7 /* SourceSerifPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE619F2693027600E606D7 /* SourceSerifPro-Light.ttf */; };
+		B3BE61C32693027800E606D7 /* SourceSerifPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61A02693027600E606D7 /* SourceSerifPro-Regular.ttf */; };
+		B3BE61C42693027800E606D7 /* RobotoItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61A12693027600E606D7 /* RobotoItalic.ttf */; };
+		B3BE61C52693027800E606D7 /* TitilliumWebRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61A22693027600E606D7 /* TitilliumWebRegular.ttf */; };
+		B3BE61C62693027800E606D7 /* SourceSerifProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61A32693027600E606D7 /* SourceSerifProRegular.ttf */; };
+		B3BE61C72693027800E606D7 /* SourceSerifPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61A42693027600E606D7 /* SourceSerifPro-ExtraLight.ttf */; };
+		B3BE61C82693027800E606D7 /* RobotoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61A52693027600E606D7 /* RobotoBold.ttf */; };
+		B3BE61C92693027800E606D7 /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61A62693027600E606D7 /* Manrope-Bold.ttf */; };
+		B3BE61CA2693027800E606D7 /* RobotoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61A72693027600E606D7 /* RobotoRegular.ttf */; };
+		B3BE61CB2693027800E606D7 /* SourceSerifProExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61A82693027600E606D7 /* SourceSerifProExtraLight.ttf */; };
+		B3BE61CC2693027800E606D7 /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61A92693027600E606D7 /* Manrope-Regular.ttf */; };
+		B3BE61CD2693027800E606D7 /* TitilliumWebLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61AA2693027600E606D7 /* TitilliumWebLight.ttf */; };
+		B3BE61CE2693027800E606D7 /* ManropeExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61AB2693027700E606D7 /* ManropeExtraBold.ttf */; };
+		B3BE61CF2693027800E606D7 /* ManropeSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61AC2693027700E606D7 /* ManropeSemiBold.ttf */; };
+		B3BE61D02693027800E606D7 /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61AD2693027700E606D7 /* Manrope-Medium.ttf */; };
+		B3BE61D12693027800E606D7 /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61AE2693027700E606D7 /* Manrope-ExtraLight.ttf */; };
+		B3BE61D22693027800E606D7 /* ManropeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61AF2693027700E606D7 /* ManropeBold.ttf */; };
+		B3BE61D32693027800E606D7 /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61B02693027700E606D7 /* Manrope-Light.ttf */; };
+		B3BE61D42693027800E606D7 /* SourceSerifPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61B12693027700E606D7 /* SourceSerifPro-SemiBold.ttf */; };
+		B3BE61D52693027800E606D7 /* SFProTextRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61B22693027700E606D7 /* SFProTextRegular.ttf */; };
+		B3BE61D62693027800E606D7 /* SourceSerifProLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61B32693027700E606D7 /* SourceSerifProLight.ttf */; };
+		B3BE61D72693027800E606D7 /* SourceSerifProSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61B42693027700E606D7 /* SourceSerifProSemiBold.ttf */; };
+		B3BE61D82693027800E606D7 /* RobotoBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61B52693027700E606D7 /* RobotoBoldItalic.ttf */; };
+		B3BE61D92693027800E606D7 /* SFUITextRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61B62693027700E606D7 /* SFUITextRegular.ttf */; };
+		B3BE61DA2693027800E606D7 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61B72693027700E606D7 /* Manrope-ExtraBold.ttf */; };
+		B3BE61DB2693027800E606D7 /* ManropeExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61B82693027700E606D7 /* ManropeExtraLight.ttf */; };
+		B3BE61DC2693027800E606D7 /* ManropeMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61B92693027700E606D7 /* ManropeMedium.ttf */; };
+		B3BE61DD2693027800E606D7 /* ManropeLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61BA2693027800E606D7 /* ManropeLight.ttf */; };
+		B3BE61DE2693027800E606D7 /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61BB2693027800E606D7 /* Manrope-SemiBold.ttf */; };
+		B3BE61DF2693027800E606D7 /* ManropeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61BC2693027800E606D7 /* ManropeRegular.ttf */; };
+		B3BE61E02693027800E606D7 /* SourceSerifProBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61BD2693027800E606D7 /* SourceSerifProBlack.ttf */; };
+		B3BE61E12693027800E606D7 /* OpenSansRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61BE2693027800E606D7 /* OpenSansRegular.ttf */; };
+		B3BE61E22693027800E606D7 /* SourceSerifPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61BF2693027800E606D7 /* SourceSerifPro-Black.ttf */; };
+		B3BE61E32693027800E606D7 /* SourceSerifProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61C02693027800E606D7 /* SourceSerifProBold.ttf */; };
+		B8C6F9878F96F1E0E0682142 /* libPods-ConfidantHealthProvider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E261B45898D004615E82D6 /* libPods-ConfidantHealthProvider.a */; };
+		E2BEC30B23F29DD200F106DB /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = E2BEC30823F29DD200F106DB /* main.jsbundle */; };
+		E2D5EE1327205A9400B75AF5 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E2D5EE1227205A9400B75AF5 /* assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5557E888238BD7A90051D3CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5557E881238BD7A90051D3CD;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5557E88E238BD7A90051D3CD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5557E88A238BD7A90051D3CD /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ConfidantHealthProviderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfidantHealthProviderTests.m; sourceTree = "<group>"; };
+		105144AA48F04F6E8A815766 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		12E67675EFFE4C8D1BE316D8 /* Pods-ConfidantHealthProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfidantHealthProvider.debug.xcconfig"; path = "Target Support Files/Pods-ConfidantHealthProvider/Pods-ConfidantHealthProvider.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Confidant Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Confidant Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ConfidantHealthProvider/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ConfidantHealthProvider/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ConfidantHealthProvider/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ConfidantHealthProvider/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ConfidantHealthProvider/main.m; sourceTree = "<group>"; };
+		14E826086D201D3AFFD3DFED /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		157BE647A8DC403C94C9D6CB /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		26586961E3AE4468BCD3962F /* TitilliumWebLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = TitilliumWebLight.ttf; path = ../src/assets/fonts/TitilliumWebLight.ttf; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* ConfidantHealthProvider-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConfidantHealthProvider-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E552F0384D42BAA8868E4F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		3AA1C45741184DAB99CBFE57 /* SFProTextRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SFProTextRegular.ttf; path = ../src/assets/fonts/SFProTextRegular.ttf; sourceTree = "<group>"; };
+		3BCBE422D89B418EBA77920A /* TitilliumWebRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = TitilliumWebRegular.ttf; path = ../src/assets/fonts/TitilliumWebRegular.ttf; sourceTree = "<group>"; };
+		401F008EA0F7CD6A75A284DD /* Pods-ConfidantHealthProvider-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfidantHealthProvider-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ConfidantHealthProvider-tvOSTests/Pods-ConfidantHealthProvider-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A49BD0786D74A8CFAB4BBF9 /* libPods-ConfidantHealthProviderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConfidantHealthProviderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC359210FEE7636A8A6917A /* libPods-ConfidantHealthProvider-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConfidantHealthProvider-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F368F3D5AF4CE0B455F326 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		526C8F2DFDCA2D6FBD11C698 /* Pods-ConfidantHealthProvider-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfidantHealthProvider-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ConfidantHealthProvider-tvOS/Pods-ConfidantHealthProvider-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		5557E882238BD7A90051D3CD /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5557E884238BD7A90051D3CD /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		5557E885238BD7A90051D3CD /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		5557E887238BD7A90051D3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5561A4702357269700C2BED6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ConfidantHealthProvider/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5561A4742357396500C2BED6 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchViewController.swift; path = ConfidantHealthProvider/LaunchViewController.swift; sourceTree = "<group>"; };
+		5561A4762357501700C2BED6 /* circle_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = circle_animation.json; sourceTree = "<group>"; };
+		558C8E23234B83F100EB37C6 /* ConfidantHealthProvider-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConfidantHealthProvider-Bridging-Header.h"; sourceTree = "<group>"; };
+		558C8E24234B83F100EB37C6 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		558C8E26234C60E500EB37C6 /* TitilliumWebRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TitilliumWebRegular.ttf; sourceTree = "<group>"; };
+		558C8E27234C60E500EB37C6 /* RobotoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoRegular.ttf; sourceTree = "<group>"; };
+		558C8E29234C60E600EB37C6 /* OpenSansRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenSansRegular.ttf; sourceTree = "<group>"; };
+		558C8E2A234C60E600EB37C6 /* SFUITextRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFUITextRegular.ttf; sourceTree = "<group>"; };
+		558C8E2B234C60E600EB37C6 /* SFProTextRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFProTextRegular.ttf; sourceTree = "<group>"; };
+		558C8E2C234C60E600EB37C6 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		558C8E2D234C60E600EB37C6 /* RobotoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoBold.ttf; sourceTree = "<group>"; };
+		558C8E2E234C60E600EB37C6 /* TitilliumWebLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TitilliumWebLight.ttf; sourceTree = "<group>"; };
+		558C8E39234C61C500EB37C6 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		558C8E3A234C61C500EB37C6 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		558C8E3B234C61C500EB37C6 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		558C8E3C234C61C500EB37C6 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		558C8E3D234C61C500EB37C6 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		558C8E3E234C61C500EB37C6 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		558C8E3F234C61C500EB37C6 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		558C8E40234C61C500EB37C6 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		558C8E41234C61C500EB37C6 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		558C8E42234C61C500EB37C6 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		558C8E43234C61C500EB37C6 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		558C8E44234C61C500EB37C6 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		558C8E45234C61C500EB37C6 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		558C8E46234C61C500EB37C6 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		558C8E47234C61C500EB37C6 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		558C8E48234C61C500EB37C6 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		558C8E59234C665A00EB37C6 /* RobotoItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RobotoItalic.ttf; path = ../src/assets/fonts/RobotoItalic.ttf; sourceTree = "<group>"; };
+		558C8E5B234C674600EB37C6 /* ConfidantHealthProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ConfidantHealthProvider.entitlements; path = ConfidantHealthProvider/ConfidantHealthProvider.entitlements; sourceTree = "<group>"; };
+		6B53068DDE257B5B3E9E9AD9 /* Pods-ConfidantHealthProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfidantHealthProvider.release.xcconfig"; path = "Target Support Files/Pods-ConfidantHealthProvider/Pods-ConfidantHealthProvider.release.xcconfig"; sourceTree = "<group>"; };
+		6CBC1096FC074F77A59295C8 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		73D82CDF1A55C88C53901095 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		77EA26B99F294B379D94CDFB /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		84196A353FEEFC9018314071 /* Pods-ConfidantHealthProviderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfidantHealthProviderTests.release.xcconfig"; path = "Target Support Files/Pods-ConfidantHealthProviderTests/Pods-ConfidantHealthProviderTests.release.xcconfig"; sourceTree = "<group>"; };
+		88D912D6B2FA494E806F69F6 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		9388D16197F0466D55951632 /* Pods-ConfidantHealthProvider-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfidantHealthProvider-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ConfidantHealthProvider-tvOSTests/Pods-ConfidantHealthProvider-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97E261B45898D004615E82D6 /* libPods-ConfidantHealthProvider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConfidantHealthProvider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9881E8BB02686A9DF090893E /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		9A72B00AAEF442A590523D28 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		9CA5851835ED4F02A7300DD6 /* RobotoRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoRegular.ttf; path = ../src/assets/fonts/RobotoRegular.ttf; sourceTree = "<group>"; };
+		9E46561F3F6F464DBF793A94 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A33C83F03AF241DA9ED45539 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		A4E71B4DE3ACF106DB804D83 /* Pods-ConfidantHealthProviderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfidantHealthProviderTests.debug.xcconfig"; path = "Target Support Files/Pods-ConfidantHealthProviderTests/Pods-ConfidantHealthProviderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5873B1F9B8A4113804BABBF /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		A994EC2F05304E6F85815B1E /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		B3BE619E2693027600E606D7 /* SourceSerifPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSerifPro-Bold.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifPro-Bold.ttf"; sourceTree = "<group>"; };
+		B3BE619F2693027600E606D7 /* SourceSerifPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSerifPro-Light.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifPro-Light.ttf"; sourceTree = "<group>"; };
+		B3BE61A02693027600E606D7 /* SourceSerifPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSerifPro-Regular.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifPro-Regular.ttf"; sourceTree = "<group>"; };
+		B3BE61A12693027600E606D7 /* RobotoItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RobotoItalic.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/RobotoItalic.ttf"; sourceTree = "<group>"; };
+		B3BE61A22693027600E606D7 /* TitilliumWebRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TitilliumWebRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/TitilliumWebRegular.ttf"; sourceTree = "<group>"; };
+		B3BE61A32693027600E606D7 /* SourceSerifProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SourceSerifProRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifProRegular.ttf"; sourceTree = "<group>"; };
+		B3BE61A42693027600E606D7 /* SourceSerifPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSerifPro-ExtraLight.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B3BE61A52693027600E606D7 /* RobotoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RobotoBold.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/RobotoBold.ttf"; sourceTree = "<group>"; };
+		B3BE61A62693027600E606D7 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Bold.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		B3BE61A72693027600E606D7 /* RobotoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RobotoRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/RobotoRegular.ttf"; sourceTree = "<group>"; };
+		B3BE61A82693027600E606D7 /* SourceSerifProExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SourceSerifProExtraLight.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifProExtraLight.ttf"; sourceTree = "<group>"; };
+		B3BE61A92693027600E606D7 /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Regular.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		B3BE61AA2693027600E606D7 /* TitilliumWebLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TitilliumWebLight.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/TitilliumWebLight.ttf"; sourceTree = "<group>"; };
+		B3BE61AB2693027700E606D7 /* ManropeExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeExtraBold.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeExtraBold.ttf"; sourceTree = "<group>"; };
+		B3BE61AC2693027700E606D7 /* ManropeSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeSemiBold.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeSemiBold.ttf"; sourceTree = "<group>"; };
+		B3BE61AD2693027700E606D7 /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Medium.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		B3BE61AE2693027700E606D7 /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-ExtraLight.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B3BE61AF2693027700E606D7 /* ManropeBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeBold.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeBold.ttf"; sourceTree = "<group>"; };
+		B3BE61B02693027700E606D7 /* Manrope-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Light.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-Light.ttf"; sourceTree = "<group>"; };
+		B3BE61B12693027700E606D7 /* SourceSerifPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSerifPro-SemiBold.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		B3BE61B22693027700E606D7 /* SFProTextRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SFProTextRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SFProTextRegular.ttf"; sourceTree = "<group>"; };
+		B3BE61B32693027700E606D7 /* SourceSerifProLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SourceSerifProLight.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifProLight.ttf"; sourceTree = "<group>"; };
+		B3BE61B42693027700E606D7 /* SourceSerifProSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SourceSerifProSemiBold.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifProSemiBold.ttf"; sourceTree = "<group>"; };
+		B3BE61B52693027700E606D7 /* RobotoBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RobotoBoldItalic.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/RobotoBoldItalic.ttf"; sourceTree = "<group>"; };
+		B3BE61B62693027700E606D7 /* SFUITextRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SFUITextRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SFUITextRegular.ttf"; sourceTree = "<group>"; };
+		B3BE61B72693027700E606D7 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-ExtraBold.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B3BE61B82693027700E606D7 /* ManropeExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeExtraLight.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeExtraLight.ttf"; sourceTree = "<group>"; };
+		B3BE61B92693027700E606D7 /* ManropeMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeMedium.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeMedium.ttf"; sourceTree = "<group>"; };
+		B3BE61BA2693027800E606D7 /* ManropeLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeLight.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeLight.ttf"; sourceTree = "<group>"; };
+		B3BE61BB2693027800E606D7 /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-SemiBold.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		B3BE61BC2693027800E606D7 /* ManropeRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeRegular.ttf"; sourceTree = "<group>"; };
+		B3BE61BD2693027800E606D7 /* SourceSerifProBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SourceSerifProBlack.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifProBlack.ttf"; sourceTree = "<group>"; };
+		B3BE61BE2693027800E606D7 /* OpenSansRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = OpenSansRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/OpenSansRegular.ttf"; sourceTree = "<group>"; };
+		B3BE61BF2693027800E606D7 /* SourceSerifPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSerifPro-Black.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifPro-Black.ttf"; sourceTree = "<group>"; };
+		B3BE61C02693027800E606D7 /* SourceSerifProBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SourceSerifProBold.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifProBold.ttf"; sourceTree = "<group>"; };
+		BF2B3B5B7C5A4E6F80FC58E6 /* SFUITextRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SFUITextRegular.ttf; path = ../src/assets/fonts/SFUITextRegular.ttf; sourceTree = "<group>"; };
+		BF4DE4F4550B4AEFA28F8D0C /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		C7863048DC104E509C39091C /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		CAD733F26BB242F4BE8458AC /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		D03C4115C12B701721A700E5 /* libPods-ConfidantHealthProvider-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConfidantHealthProvider-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D436C9D4B97A4218B42CA396 /* OpenSansRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OpenSansRegular.ttf; path = ../src/assets/fonts/OpenSansRegular.ttf; sourceTree = "<group>"; };
+		DBFA23AD4E5D43D7BD3590B2 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		E2BEC30823F29DD200F106DB /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		E2BFE6262779D97000AAB0AF /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		E2C9F7C324B89527009DCBDC /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		E2D5EE1227205A9400B75AF5 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		E73F1E54787B1EC24F3D4963 /* Pods-ConfidantHealthProvider-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfidantHealthProvider-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ConfidantHealthProvider-tvOS/Pods-ConfidantHealthProvider-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E884C3A839CE45EEA36CA833 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		EC75F7F7E65049E8945E7D11 /* RobotoBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoBold.ttf; path = ../src/assets/fonts/RobotoBold.ttf; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F00FDF44A49B4DF38476D984 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		F0EA88FD2C5443E6A0C0CF6F /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		FCA4E948AB5C42958EFF905F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C6F9878F96F1E0E0682142 /* libPods-ConfidantHealthProvider.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB03AC31B1A29BAAE695CA7 /* libPods-ConfidantHealthProvider-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5557E87F238BD7A90051D3CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E7BD0EA44CFD3010010B30 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* ConfidantHealthProviderTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* ConfidantHealthProviderTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = ConfidantHealthProviderTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* ConfidantHealthProvider */ = {
+			isa = PBXGroup;
+			children = (
+				5561A4762357501700C2BED6 /* circle_animation.json */,
+				558C8E5B234C674600EB37C6 /* ConfidantHealthProvider.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				558C8E24234B83F100EB37C6 /* test.swift */,
+				5561A4702357269700C2BED6 /* LaunchScreen.storyboard */,
+				558C8E23234B83F100EB37C6 /* ConfidantHealthProvider-Bridging-Header.h */,
+				5561A4742357396500C2BED6 /* LaunchViewController.swift */,
+			);
+			name = ConfidantHealthProvider;
+			sourceTree = "<group>";
+		};
+		21CDA67BF997F5D60EB340D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12E67675EFFE4C8D1BE316D8 /* Pods-ConfidantHealthProvider.debug.xcconfig */,
+				6B53068DDE257B5B3E9E9AD9 /* Pods-ConfidantHealthProvider.release.xcconfig */,
+				E73F1E54787B1EC24F3D4963 /* Pods-ConfidantHealthProvider-tvOS.debug.xcconfig */,
+				526C8F2DFDCA2D6FBD11C698 /* Pods-ConfidantHealthProvider-tvOS.release.xcconfig */,
+				9388D16197F0466D55951632 /* Pods-ConfidantHealthProvider-tvOSTests.debug.xcconfig */,
+				401F008EA0F7CD6A75A284DD /* Pods-ConfidantHealthProvider-tvOSTests.release.xcconfig */,
+				A4E71B4DE3ACF106DB804D83 /* Pods-ConfidantHealthProviderTests.debug.xcconfig */,
+				84196A353FEEFC9018314071 /* Pods-ConfidantHealthProviderTests.release.xcconfig */,
+				9881E8BB02686A9DF090893E /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				73D82CDF1A55C88C53901095 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				97E261B45898D004615E82D6 /* libPods-ConfidantHealthProvider.a */,
+				4AC359210FEE7636A8A6917A /* libPods-ConfidantHealthProvider-tvOS.a */,
+				D03C4115C12B701721A700E5 /* libPods-ConfidantHealthProvider-tvOSTests.a */,
+				4A49BD0786D74A8CFAB4BBF9 /* libPods-ConfidantHealthProviderTests.a */,
+				14E826086D201D3AFFD3DFED /* libPods-OneSignalNotificationServiceExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5557E883238BD7A90051D3CD /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E2C9F7C324B89527009DCBDC /* OneSignalNotificationServiceExtension.entitlements */,
+				5557E884238BD7A90051D3CD /* NotificationService.h */,
+				5557E885238BD7A90051D3CD /* NotificationService.m */,
+				5557E887238BD7A90051D3CD /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		558C8E38234C61C500EB37C6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				558C8E39234C61C500EB37C6 /* Fontisto.ttf */,
+				558C8E3A234C61C500EB37C6 /* Octicons.ttf */,
+				558C8E3B234C61C500EB37C6 /* Feather.ttf */,
+				558C8E3C234C61C500EB37C6 /* Entypo.ttf */,
+				558C8E3D234C61C500EB37C6 /* FontAwesome5_Brands.ttf */,
+				558C8E3E234C61C500EB37C6 /* MaterialCommunityIcons.ttf */,
+				558C8E3F234C61C500EB37C6 /* AntDesign.ttf */,
+				558C8E40234C61C500EB37C6 /* Foundation.ttf */,
+				558C8E41234C61C500EB37C6 /* Ionicons.ttf */,
+				558C8E42234C61C500EB37C6 /* FontAwesome5_Solid.ttf */,
+				558C8E43234C61C500EB37C6 /* FontAwesome5_Regular.ttf */,
+				558C8E44234C61C500EB37C6 /* FontAwesome.ttf */,
+				558C8E45234C61C500EB37C6 /* Zocial.ttf */,
+				558C8E46234C61C500EB37C6 /* EvilIcons.ttf */,
+				558C8E47234C61C500EB37C6 /* SimpleLineIcons.ttf */,
+				558C8E48234C61C500EB37C6 /* MaterialIcons.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
+			sourceTree = "<group>";
+		};
+		69A8C2D17AAF46E8AC489C96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D436C9D4B97A4218B42CA396 /* OpenSansRegular.ttf */,
+				9E46561F3F6F464DBF793A94 /* Roboto-BoldItalic.ttf */,
+				EC75F7F7E65049E8945E7D11 /* RobotoBold.ttf */,
+				9CA5851835ED4F02A7300DD6 /* RobotoRegular.ttf */,
+				3AA1C45741184DAB99CBFE57 /* SFProTextRegular.ttf */,
+				BF2B3B5B7C5A4E6F80FC58E6 /* SFUITextRegular.ttf */,
+				26586961E3AE4468BCD3962F /* TitilliumWebLight.ttf */,
+				3BCBE422D89B418EBA77920A /* TitilliumWebRegular.ttf */,
+				51F368F3D5AF4CE0B455F326 /* AntDesign.ttf */,
+				F00FDF44A49B4DF38476D984 /* Entypo.ttf */,
+				A33C83F03AF241DA9ED45539 /* EvilIcons.ttf */,
+				E884C3A839CE45EEA36CA833 /* Feather.ttf */,
+				CAD733F26BB242F4BE8458AC /* FontAwesome.ttf */,
+				105144AA48F04F6E8A815766 /* FontAwesome5_Brands.ttf */,
+				88D912D6B2FA494E806F69F6 /* FontAwesome5_Regular.ttf */,
+				39E552F0384D42BAA8868E4F /* FontAwesome5_Solid.ttf */,
+				BF4DE4F4550B4AEFA28F8D0C /* Fontisto.ttf */,
+				C7863048DC104E509C39091C /* Foundation.ttf */,
+				77EA26B99F294B379D94CDFB /* Ionicons.ttf */,
+				A5873B1F9B8A4113804BABBF /* MaterialCommunityIcons.ttf */,
+				6CBC1096FC074F77A59295C8 /* MaterialIcons.ttf */,
+				A994EC2F05304E6F85815B1E /* Octicons.ttf */,
+				157BE647A8DC403C94C9D6CB /* Roboto_medium.ttf */,
+				DBFA23AD4E5D43D7BD3590B2 /* Roboto.ttf */,
+				F0EA88FD2C5443E6A0C0CF6F /* rubicon-icon-font.ttf */,
+				FCA4E948AB5C42958EFF905F /* SimpleLineIcons.ttf */,
+				9A72B00AAEF442A590523D28 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				E2BFE6262779D97000AAB0AF /* Config.xcconfig */,
+				E2D5EE1227205A9400B75AF5 /* assets */,
+				B3BE61A62693027600E606D7 /* Manrope-Bold.ttf */,
+				B3BE61B72693027700E606D7 /* Manrope-ExtraBold.ttf */,
+				B3BE61AE2693027700E606D7 /* Manrope-ExtraLight.ttf */,
+				B3BE61B02693027700E606D7 /* Manrope-Light.ttf */,
+				B3BE61AD2693027700E606D7 /* Manrope-Medium.ttf */,
+				B3BE61A92693027600E606D7 /* Manrope-Regular.ttf */,
+				B3BE61BB2693027800E606D7 /* Manrope-SemiBold.ttf */,
+				B3BE61AF2693027700E606D7 /* ManropeBold.ttf */,
+				B3BE61AB2693027700E606D7 /* ManropeExtraBold.ttf */,
+				B3BE61B82693027700E606D7 /* ManropeExtraLight.ttf */,
+				B3BE61BA2693027800E606D7 /* ManropeLight.ttf */,
+				B3BE61B92693027700E606D7 /* ManropeMedium.ttf */,
+				B3BE61BC2693027800E606D7 /* ManropeRegular.ttf */,
+				B3BE61AC2693027700E606D7 /* ManropeSemiBold.ttf */,
+				B3BE61BE2693027800E606D7 /* OpenSansRegular.ttf */,
+				B3BE61A52693027600E606D7 /* RobotoBold.ttf */,
+				B3BE61B52693027700E606D7 /* RobotoBoldItalic.ttf */,
+				B3BE61A12693027600E606D7 /* RobotoItalic.ttf */,
+				B3BE61A72693027600E606D7 /* RobotoRegular.ttf */,
+				B3BE61B22693027700E606D7 /* SFProTextRegular.ttf */,
+				B3BE61B62693027700E606D7 /* SFUITextRegular.ttf */,
+				B3BE61BF2693027800E606D7 /* SourceSerifPro-Black.ttf */,
+				B3BE619E2693027600E606D7 /* SourceSerifPro-Bold.ttf */,
+				B3BE61A42693027600E606D7 /* SourceSerifPro-ExtraLight.ttf */,
+				B3BE619F2693027600E606D7 /* SourceSerifPro-Light.ttf */,
+				B3BE61A02693027600E606D7 /* SourceSerifPro-Regular.ttf */,
+				B3BE61B12693027700E606D7 /* SourceSerifPro-SemiBold.ttf */,
+				B3BE61BD2693027800E606D7 /* SourceSerifProBlack.ttf */,
+				B3BE61C02693027800E606D7 /* SourceSerifProBold.ttf */,
+				B3BE61A82693027600E606D7 /* SourceSerifProExtraLight.ttf */,
+				B3BE61B32693027700E606D7 /* SourceSerifProLight.ttf */,
+				B3BE61A32693027600E606D7 /* SourceSerifProRegular.ttf */,
+				B3BE61B42693027700E606D7 /* SourceSerifProSemiBold.ttf */,
+				B3BE61AA2693027600E606D7 /* TitilliumWebLight.ttf */,
+				B3BE61A22693027600E606D7 /* TitilliumWebRegular.ttf */,
+				E2BEC30823F29DD200F106DB /* main.jsbundle */,
+				558C8E59234C665A00EB37C6 /* RobotoItalic.ttf */,
+				558C8E38234C61C500EB37C6 /* Fonts */,
+				558C8E29234C60E600EB37C6 /* OpenSansRegular.ttf */,
+				558C8E2C234C60E600EB37C6 /* Roboto-BoldItalic.ttf */,
+				558C8E2D234C60E600EB37C6 /* RobotoBold.ttf */,
+				558C8E27234C60E500EB37C6 /* RobotoRegular.ttf */,
+				558C8E2B234C60E600EB37C6 /* SFProTextRegular.ttf */,
+				558C8E2A234C60E600EB37C6 /* SFUITextRegular.ttf */,
+				558C8E2E234C60E600EB37C6 /* TitilliumWebLight.ttf */,
+				558C8E26234C60E500EB37C6 /* TitilliumWebRegular.ttf */,
+				13B07FAE1A68108700A75B9A /* ConfidantHealthProvider */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* ConfidantHealthProviderTests */,
+				5557E883238BD7A90051D3CD /* OneSignalNotificationServiceExtension */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				21CDA67BF997F5D60EB340D3 /* Pods */,
+				69A8C2D17AAF46E8AC489C96 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Confidant Pro.app */,
+				2D02E47B1E0B4A5D006451C7 /* ConfidantHealthProvider-tvOS.app */,
+				5557E882238BD7A90051D3CD /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* ConfidantHealthProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ConfidantHealthProvider" */;
+			buildPhases = (
+				0983D5948AFC668E2A0FFD44 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				3CDFC864D130EDD874E81356 /* [CP] Copy Pods Resources */,
+				5557E88E238BD7A90051D3CD /* Embed App Extensions */,
+				EE281550AB0B0407AFECD452 /* [CP] Embed Pods Frameworks */,
+				27B1782D358747A585BD0647 /* [CP-User] [instabug-reactnative] Upload Sourcemap */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5557E889238BD7A90051D3CD /* PBXTargetDependency */,
+			);
+			name = ConfidantHealthProvider;
+			productName = ConfidantHealthProvider;
+			productReference = 13B07F961A680F5B00A75B9A /* Confidant Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* ConfidantHealthProvider-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ConfidantHealthProvider-tvOS" */;
+			buildPhases = (
+				B622CCA0BC3E9CE879F16E88 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ConfidantHealthProvider-tvOS";
+			productName = "ConfidantHealthProvider-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* ConfidantHealthProvider-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5557E881238BD7A90051D3CD /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5557E88B238BD7A90051D3CD /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				064258CAC3D45998E0A2F53E /* [CP] Check Pods Manifest.lock */,
+				5557E87E238BD7A90051D3CD /* Sources */,
+				5557E87F238BD7A90051D3CD /* Frameworks */,
+				5557E880238BD7A90051D3CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 5557E882238BD7A90051D3CD /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 67THC83KW2;
+						LastSwiftMigration = 1030;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5557E881238BD7A90051D3CD = {
+						CreatedOnToolsVersion = 11.2.1;
+						DevelopmentTeam = 67THC83KW2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ConfidantHealthProvider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ConfidantHealthProvider */,
+				2D02E47A1E0B4A5D006451C7 /* ConfidantHealthProvider-tvOS */,
+				5557E881238BD7A90051D3CD /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D5EE1327205A9400B75AF5 /* assets in Resources */,
+				B3BE61DA2693027800E606D7 /* Manrope-ExtraBold.ttf in Resources */,
+				B3BE61C42693027800E606D7 /* RobotoItalic.ttf in Resources */,
+				B3BE61CC2693027800E606D7 /* Manrope-Regular.ttf in Resources */,
+				B3BE61D42693027800E606D7 /* SourceSerifPro-SemiBold.ttf in Resources */,
+				B3BE61CD2693027800E606D7 /* TitilliumWebLight.ttf in Resources */,
+				B3BE61C32693027800E606D7 /* SourceSerifPro-Regular.ttf in Resources */,
+				B3BE61D32693027800E606D7 /* Manrope-Light.ttf in Resources */,
+				B3BE61DB2693027800E606D7 /* ManropeExtraLight.ttf in Resources */,
+				B3BE61E22693027800E606D7 /* SourceSerifPro-Black.ttf in Resources */,
+				B3BE61E02693027800E606D7 /* SourceSerifProBlack.ttf in Resources */,
+				B3BE61C12693027800E606D7 /* SourceSerifPro-Bold.ttf in Resources */,
+				B3BE61C72693027800E606D7 /* SourceSerifPro-ExtraLight.ttf in Resources */,
+				B3BE61CF2693027800E606D7 /* ManropeSemiBold.ttf in Resources */,
+				B3BE61E12693027800E606D7 /* OpenSansRegular.ttf in Resources */,
+				B3BE61D62693027800E606D7 /* SourceSerifProLight.ttf in Resources */,
+				B3BE61DD2693027800E606D7 /* ManropeLight.ttf in Resources */,
+				B3BE61D52693027800E606D7 /* SFProTextRegular.ttf in Resources */,
+				B3BE61C22693027800E606D7 /* SourceSerifPro-Light.ttf in Resources */,
+				B3BE61D22693027800E606D7 /* ManropeBold.ttf in Resources */,
+				B3BE61C92693027800E606D7 /* Manrope-Bold.ttf in Resources */,
+				B3BE61C52693027800E606D7 /* TitilliumWebRegular.ttf in Resources */,
+				B3BE61CA2693027800E606D7 /* RobotoRegular.ttf in Resources */,
+				B3BE61E32693027800E606D7 /* SourceSerifProBold.ttf in Resources */,
+				B3BE61D12693027800E606D7 /* Manrope-ExtraLight.ttf in Resources */,
+				B3BE61C62693027800E606D7 /* SourceSerifProRegular.ttf in Resources */,
+				5561A4712357269700C2BED6 /* LaunchScreen.storyboard in Resources */,
+				B3BE61D72693027800E606D7 /* SourceSerifProSemiBold.ttf in Resources */,
+				B3BE61D02693027800E606D7 /* Manrope-Medium.ttf in Resources */,
+				5561A4772357501700C2BED6 /* circle_animation.json in Resources */,
+				B3BE61DE2693027800E606D7 /* Manrope-SemiBold.ttf in Resources */,
+				B3BE61D82693027800E606D7 /* RobotoBoldItalic.ttf in Resources */,
+				B3BE61DC2693027800E606D7 /* ManropeMedium.ttf in Resources */,
+				E2BEC30B23F29DD200F106DB /* main.jsbundle in Resources */,
+				B3BE61DF2693027800E606D7 /* ManropeRegular.ttf in Resources */,
+				B3BE61C82693027800E606D7 /* RobotoBold.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B3BE61CB2693027800E606D7 /* SourceSerifProExtraLight.ttf in Resources */,
+				B3BE61CE2693027800E606D7 /* ManropeExtraBold.ttf in Resources */,
+				B3BE61D92693027800E606D7 /* SFUITextRegular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5557E880238BD7A90051D3CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		064258CAC3D45998E0A2F53E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0983D5948AFC668E2A0FFD44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConfidantHealthProvider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27B1782D358747A585BD0647 /* [CP-User] [instabug-reactnative] Upload Sourcemap */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [instabug-reactnative] Upload Sourcemap";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"../node_modules/instabug-reactnative/ios/upload_sourcemap.sh\"";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		3CDFC864D130EDD874E81356 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConfidantHealthProvider/Pods-ConfidantHealthProvider-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfidantHealthProvider/Pods-ConfidantHealthProvider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B622CCA0BC3E9CE879F16E88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConfidantHealthProvider-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE281550AB0B0407AFECD452 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConfidantHealthProvider/Pods-ConfidantHealthProvider-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RNInstabug/Instabug.framework/Instabug",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Instabug.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfidantHealthProvider/Pods-ConfidantHealthProvider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				5561A4752357396500C2BED6 /* LaunchViewController.swift in Sources */,
+				558C8E25234B83F100EB37C6 /* test.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5557E87E238BD7A90051D3CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5557E886238BD7A90051D3CD /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5557E889238BD7A90051D3CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5557E881238BD7A90051D3CD /* OneSignalNotificationServiceExtension */;
+			targetProxy = 5557E888238BD7A90051D3CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E67675EFFE4C8D1BE316D8 /* Pods-ConfidantHealthProvider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ConfidantHealthProvider/ConfidantHealthProvider.entitlements;
+				CURRENT_PROJECT_VERSION = 6;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 67THC83KW2;
+				INFOPLIST_FILE = ConfidantHealthProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.1.18;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.safeopioidusecoalition.confidant.provider;
+				PRODUCT_NAME = "Confidant Pro";
+				SWIFT_OBJC_BRIDGING_HEADER = "ConfidantHealthProvider-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B53068DDE257B5B3E9E9AD9 /* Pods-ConfidantHealthProvider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ConfidantHealthProvider/ConfidantHealthProvider.entitlements;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 67THC83KW2;
+				INFOPLIST_FILE = ConfidantHealthProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.1.18;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.safeopioidusecoalition.confidant.provider;
+				PRODUCT_NAME = "Confidant Pro";
+				SWIFT_OBJC_BRIDGING_HEADER = "ConfidantHealthProvider-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73F1E54787B1EC24F3D4963 /* Pods-ConfidantHealthProvider-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "ConfidantHealthProvider-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.1.18;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ConfidantHealthProvider-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526C8F2DFDCA2D6FBD11C698 /* Pods-ConfidantHealthProvider-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "ConfidantHealthProvider-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.1.18;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ConfidantHealthProvider-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		5557E88C238BD7A90051D3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9881E8BB02686A9DF090893E /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 67THC83KW2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 2.1.18;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = live.safeopioidusecoalition.confidant.provider.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5557E88D238BD7A90051D3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D82CDF1A55C88C53901095 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 67THC83KW2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 2.1.18;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = live.safeopioidusecoalition.confidant.provider.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BFE6262779D97000AAB0AF /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BFE6262779D97000AAB0AF /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ConfidantHealthProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ConfidantHealthProvider-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5557E88B238BD7A90051D3CD /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5557E88C238BD7A90051D3CD /* Debug */,
+				5557E88D238BD7A90051D3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ConfidantHealthProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

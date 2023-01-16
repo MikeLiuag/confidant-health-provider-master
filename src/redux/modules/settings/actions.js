@@ -1,0 +1,40 @@
+import { createAction } from "redux-actions";
+
+export const SETTINGS_GET_ALL = 'settings/GET_ALL';
+export const SETTINGS_GET_APPOINTMENTS = 'settings/GET_APPOINTMENTS';
+export const SETTINGS_APPOINTMENTS_FETCHED = 'settings/APPOINTMENTS_FETCHED';
+export const SETTINGS_APPOINTMENTS_NO_SCHEDULE = 'settings/APPTS_NO_SCHEDULE';
+export const SETTINGS_APPOINTMENTS_FETCH_FAILED = 'settings/APPTS_FETCH_FAILED';
+export const SETTINGS_APPTS_UPDATE_SLOT = 'settings/APPTS_UPDATE_SLOT';
+export const SETTINGS_APPTS_ADD_SLOTS = 'settings/APPTS_ADD_SLOTS';
+export const SETTINGS_APPTS_DELETE_SLOT = 'settings/APPTS_DELETE_SLOT';
+export const SETTINGS_APPTS_TOGGLE_SLOT = 'settings/APPTS_TOGGLE_SLOT';
+export const SETTINGS_APPTS_CHANGE_TIMEZONE = 'settings/APPTS_CHANGE_TIMEZONE';
+export const SETTINGS_APPTS_UPDATE_SCHEDULE = 'settings/APPTS_UPDATE_SCHEDULE';
+export const SETTINGS_APPTS_UPDATE_SCHEDULE_FAILED = 'settings/APPTS_UPDATE_SCHEDULE_FAILED';
+export const SETTINGS_APPTS_SET_LOADER = 'settings/APPTS_SET_LOADER';
+
+
+
+export const SETTINGS_GET_SERVICES = 'settings/GET_SERVICES';
+export const SETTINGS_SERVICES_FETCHED = 'settings/SERVICES_FETCHED';
+export const SETTINGS_SERVICES_FETCHED_FAILED_NO_ACCESS = 'settings/SERVICES_FETCHED_FAILED_NO_ACCESS'
+export const SETTINGS_SERVICES_FETCHED_FAILED = 'settings/SERVICES_FETCHED_FAILED';
+
+export const SETTINGS_SERVICE_HANDLER = 'settings/SERVICE_HANDLER';
+export const SETTINGS_ADD_NEW_SERVICE_FAILED = 'settings/ADD_NEW_SERVICE_FAILED';
+export const SETTINGS_UPDATE_SERVICE_FAILED = 'settings/UPDATE_SERVICE_FAILED';
+export const SETTINGS_DELETE_SERVICE = 'settings/DELETE_SERVICE';
+export const SETTINGS_DELETE_SERVICE_FAILED = 'settings/DELETE_SERVICE_FAILED';
+
+export const settingsActionCreators = {
+    updateSlot: createAction(SETTINGS_APPTS_UPDATE_SLOT),
+    deleteSlot: createAction(SETTINGS_APPTS_DELETE_SLOT),
+    toggleSlot: createAction(SETTINGS_APPTS_TOGGLE_SLOT),
+    changeTimezone: createAction(SETTINGS_APPTS_CHANGE_TIMEZONE),
+    addSlots: createAction(SETTINGS_APPTS_ADD_SLOTS),
+    saveService:createAction(SETTINGS_SERVICE_HANDLER),
+    deleteService:createAction(SETTINGS_DELETE_SERVICE),
+    getAppointmentsSilently: createAction(SETTINGS_GET_APPOINTMENTS),
+    updateSchedule : createAction(SETTINGS_APPTS_UPDATE_SCHEDULE)
+};
